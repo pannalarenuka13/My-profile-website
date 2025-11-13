@@ -1,0 +1,531 @@
+body {
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(to right, #ffe6f2, #ffffff);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header styles */
+h1 {
+    font-family: 'Montserrat', cursive;
+    color: #ff69b4 ;
+}
+
+/* Buttons */
+button {
+    background-color: #f5ce0f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Skills list */
+.skills li {
+    display: inline-block;
+    background-color: #ffd166;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form input, form label {
+    form input, form label {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 50%; /* smaller box */
+}
+
+}
+
+form button {
+    margin-top: 10px;
+}
+.contact-form input, .contact-form label {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    width: 20%;
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+/* Navbar Styles */
+.navbar {
+ background-color: #ff4d88;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+line-height: normal;
+
+}
+
+.navbar a:hover {
+  color: #f5ce0f;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  font-family: 'Montserrat', sans-serif;
+}
+section {
+  background-color: white;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+button {
+  background-color: #ff4d88;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff80aa;
+  transform: scale(1.05);
+}
+img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 4px solid #ffb6c1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+footer {
+  background-color: #ff4d88;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+header h1 {
+  color: white;
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* space between photo and text */
+    padding: 40px;
+}
+
+.profile-photo {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.about-text {
+    text-align: left;
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    color: #e63946;
+}
+nav {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+html {
+    scroll-behavior: smooth;
+}
+nav a:hover {
+    color: #ffb6c1;  /* soft baby pink hover color */
+    text-shadow: 0 0 5px rgba(255, 182, 193, 0.8);
+}
+.contact-form {
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 60%;
+    margin: 50px auto;
+}
+.contact-form input, .contact-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+<footer>
+  <p>© 2025 Renuka’s World | Made with 💖 by Renuka</p>
+</footer>
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Times New Roman', serif;
+    margin-top: 50px;
+}
+.hero-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+body {
+    background: linear-gradient(135deg, #ffe4e1, #fffaf0);
+    font-family: 'Poppins', sans-serif;
+}
+.profile-photo {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 4px solid white;
+    box-shadow: 0 0 25px rgba(255, 182, 193, 0.8);
+}
+<h1 class="typing">Renuka’s World</h1>
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #fff;
+  animation: typing 3s steps(20, end), blink 0.6s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+.skill {
+  display: inline-block;
+  background-color: #ffe4e1;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 5px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.skill:hover {
+  transform: scale(1.1);
+  background-color: #ffb6c1;
+  color: white;
+}
+<div class="skills">
+  <span class="skill">Java</span>
+  <span class="skill">C</span>
+  <span class="skill">DSA in Java</span>
+  <span class="skill">HTML</span>
+</div>
+<button id="topBtn">↑</button>
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+}
+#topBtn:hover {
+  background-color: #ff1493;
+}
+button {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 0 10px #ffb6c1;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff69b4;
+  box-shadow: 0 0 25px #ff69b4;
+  transform: scale(1.05);
+}
+html {
+  scroll-behavior: smooth;
+}
+.profile-photo {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px #ffb6c1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #ff69b4;
+}
+<footer>
+  <p>Made with 💖 by Renuka’s World</p>
+</footer>
+footer {
+  background-color: #ffb6c1;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+body {
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(-45deg, #ffe6f0, #fff, #ffd6eb, #fff);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.section-title {
+  font-size: 30px;
+  color: #ff69b4;
+  text-shadow: 2px 2px 8px #ffcce0;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 25px rgba(255, 182, 193, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 35px rgba(255, 105, 180, 0.8);
+}
+
+button:hover {
+  background-color: #ff69b4;
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 192, 203, 0.8);
+  transition: 0.4s;
+}
+<footer>
+  <p>© 2025 Renuka’s World 🌸 | Made with ❤️ by Renuka</p>
+</footer>
+footer {
+  background-color: #ffb6c1;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
+h1, h2 {
+  font-family: 'Montserrat', cursive;
+  color: white;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffc0cb;
+}
+h1, h2 {
+  font-family: 'Montserrat', cursive;
+  color: white;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffc0cb;
+}
+body {
+  font-family: 'Times New Roman', serif;
+  background: linear-gradient(135deg, #ffe6f2, #ffffff, #ffd6e8);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+h1 {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+.about-section {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(255, 182, 193, 0.4);
+}
+<div class="hearts">💖 💕 💗 💓 💞</div>
+
+.hearts {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0.5; }
+}
+
+button {
+  background-color: #ffb6c1;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-size: 16px;
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 182, 193, 0.6);
+  transition: all 5.5s ease;
+}
+
+button:hover {
+  background-color: #ff69b4;
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(255, 105, 180, 0.8);
+}
+h1 {
+  animation: float 1.5s ease-in-out infinite, glow 2s ease-in-out infinite;
+  color: white;
+  text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffc0cb;
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffc0cb; }
+  50% { text-shadow: 0 0 25px #ffb6c1, 0 0 35px #ff69b4; }
+  100% { text-shadow: 0 0 10px #ff69b4, 0 0 20px #ffc0cb; }
+}
+body {
+  animation: zoomIn 1s ease-in;
+}
+
+@keyframes zoomIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff69b4;
+  text-shadow: 0 0 10px #ff69b4;
+  transform: scale(1.1);
+}
+<div class="floating-hearts">💖 💕 💗 💓 💞</div>
+.floating-hearts {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: floatHearts 4s ease-in-out infinite;
+  font-size: 24px;
+}
+
+@keyframes floatHearts {
+  0% { transform: translate(-50%, 0); opacity: 1; }
+  50% { transform: translate(-50%, -20px); opacity: 0.7; }
+  100% { transform: translate(-50%, 0); opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
