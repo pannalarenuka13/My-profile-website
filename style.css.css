@@ -1,0 +1,51 @@
+/* General page style */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+h1, h2 {
+    font-family: 'Montserrat', cursive;
+    color: #e63946;
+}
+
+/* Buttons */
+button {
+    background-color: #f5ce0f;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff7f50;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* Skills list */
+.skills li {
+    display: inline-block;
+    background-color: #ffd166;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form input, form label {
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 10px;
+}
